@@ -1,0 +1,194 @@
+.nav-container {
+    display: flex;
+    justify-content: flex-end;
+    gap:30px;
+    padding:20px 50px;
+    color: darkred;
+    font-size: 18px;
+    font-family:Calibri;
+    padding-bottom: 30px;
+}
+
+.logo {
+flex-grow: 1;
+font-weight: bold;
+}
+nav {
+    width:100%;
+    box-shadow: 0 15px 15px -15px rgba(0,0,0,.2);
+}   
+a {
+   text-decoration: none; 
+   color: black;
+}
+a:hover {
+    color: darkred;
+}
+.headtxt {
+    font-family:Calibri;      
+}
+.line {
+    content: "";
+    background-color: darkred;
+    height: 3px;
+    width:50px;
+}
+.txt {
+    font-family: Calibri;
+    font-weight: 400px;
+}
+.picture{
+    height: 270px;
+    width: 230px;
+}
+.title {
+    display:flex;
+    flex-direction: column;
+    width:230px;
+    height:150px;
+    align-items: center;
+    padding-top: 20px;
+    gap: 6px;
+}
+.rating {
+    color:rgb(252, 186, 3);
+    font-weight: bold;
+}
+.base {
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    margin-top: 100px;
+    gap: 20px;
+    font-family: Calibri;
+}
+header{
+    margin-left:80px;
+    margin-top: 50px;
+}
+.one {
+    background-image:url(/images/airforce.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.one:hover {
+    background-image: url(/images/airforce2.png);
+    background-position: center;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: contain;
+}
+.two {
+    background-image: url(/images/nikeairugly.png);
+    background-position: center;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: contain;
+}
+.two:hover {
+    background-image: url(/images/nikeiarugly2.png);
+    background-position: center;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: contain;
+}
+.three {
+    background-image: url(/images/nikeairpurple.png);
+    background-position: center;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: contain;
+}
+.three:hover{
+    background-image: url(/images/nikeairpurple2.png);
+    background-position: center;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: contain;
+}
+.four{
+    background-image: url(/images/nikeairblack.png);
+    background-position: center;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: contain;
+}
+.four:hover {
+    background-image: url(/images/nikeairblack2.png);
+    background-position: center;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: contain;
+}
+.five{
+    background-image: url(/images/blacknike.png);
+    background-position: center;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: contain;
+}
+.five:hover {
+    background-image: url(/images/blacknike2.png);
+    background-position: center;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: contain;
+}
+.six {
+    background-image: url(/images/nikeblue.png);
+    background-position: center;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: contain;
+}
+.six:hover {
+    background-image: url(/images/nikeblue2.png);
+    background-position: center;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: contain;
+}
+.seven {
+    background-image: url(/images/nikevision.png);
+    background-position: center;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: contain;
+}
+.seven:hover {
+    background-image: url(/images/nikevision2.png);
+    background-position: center;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: contain;
+}
+.eight {
+    background-image: url(/images/nikepegasus.png);
+    background-position: center;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: contain;
+}
+.eight:hover {
+    background-image: url(/images/nikepegasus2.png);
+    background-position: center;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: contain;
+}
+.name{
+    font-size:18px;
+    font-weight: lighter;
+}
+.price {
+    font-weight: bold;
+    font-size:18px;
+}
+.picture {
+    cursor: pointer;
+}
